@@ -48,6 +48,13 @@
             font-size: 1.01rem;
         }
 
+        main hr{
+            border: 0;
+            background: rgb(199, 199, 209);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
         .left{
             font-size: 1.5rem;
         }
@@ -56,7 +63,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin: 80px 0;
+            margin: 130px 0;
         }
 
         .firstSection > div{
@@ -76,8 +83,58 @@
             color: rgb(158, 93, 219);
         }
 
+        .text-gray{
+            color: gray;
+
+        }
         #element{
             color: lavender;
+        }
+
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box{
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc{
+            position: relative;
+            color: gray;
+            top: 86px;
+            width: 150px;
+            font-size: 9px;
         }
     </style>
 </head>
@@ -106,6 +163,55 @@
             </div>
             <div class="rightSection">
                 <img src="self.png" alt="Self Image">
+            </div>
+        </section>
+
+<hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="Developer Image">
+                    <div class="vertical-text">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        I was an HTML developer.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="Developer Image">
+                    <div class="vertical-text">
+                        Node.js Developer (2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        I was a Node.js developer.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="Developer Image">
+                    <div class="vertical-text">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        I was an HTML developer.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="Developer Image">
+                    <div class="vertical-text">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        I was an HTML developer.
+                    </div>
+                </div>
             </div>
         </section>
     </main>
