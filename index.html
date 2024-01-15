@@ -74,7 +74,20 @@
         .leftSection{
             font-size: 3rem;
         }   
+
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
         
+        .leftSection .btn{
+            padding: 12px;
+            background: violet;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
         .rightSection img{
             width: 80%;
         }
@@ -127,6 +140,7 @@
             position: relative;
             top: 75px;
             width: 150px;
+            font-size: 14px;
         }
 
         .vertical-desc{
@@ -135,6 +149,32 @@
             top: 86px;
             width: 150px;
             font-size: 9px;
+        }
+
+        footer{
+            background-color: lavender;
+        }
+
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width: 223px
+        }
+
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+
         }
     </style>
 </head>
@@ -160,7 +200,12 @@
                 <div>and I am a passionate</div> 
                 <span id="element"></span>
 
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
             </div>
+
             <div class="rightSection">
                 <img src="self.png" alt="Self Image">
             </div>
@@ -179,42 +224,81 @@
                         HTML Developer (2010-2012)
                     </div>
                     <div class="vertical-desc">
-                        I was an HTML developer.
+                        I was an HTML developer. Lalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalal.
                     </div>
                 </div>
 
                 <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="Developer Image">
+                    <img class="image-top" src="facebook-logo.jpg" alt="Developer Image">
                     <div class="vertical-text">
                         Node.js Developer (2012-2014)
                     </div>
                     <div class="vertical-desc">
-                        I was a Node.js developer.
+                        I was a Node.js developer. Lalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalal
                     </div>
                 </div>
 
                 <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="Developer Image">
+                    <img class="image-top" src="instagram-logo.jpg" alt="Developer Image">
                     <div class="vertical-text">
                         HTML Developer (2010-2012)
                     </div>
                     <div class="vertical-desc">
-                        I was an HTML developer.
+                        I was an HTML developer. Lalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalal
                     </div>
                 </div>
 
                 <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="Developer Image">
+                    <img class="image-top" src="youtube-logo.png" alt="Developer Image">
                     <div class="vertical-text">
                         HTML Developer (2010-2012)
                     </div>
                     <div class="vertical-desc">
-                        I was an HTML developer.
+                        I was an HTML developer. Lalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalal
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sunidhi's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+                
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <div class="footer-rights">
+                Copyright &#169; sunidhisportfolio.com | All rights reserved
+            </div>
+        </div>
+    </footer>
     
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
       <!-- Setup and start animation! -->
